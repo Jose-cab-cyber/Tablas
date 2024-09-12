@@ -1,0 +1,79 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Lista de tareas semanales</title>
+  <link rel="stylesheet" href="Estilos/app.css">
+</head>
+<body>
+  <table class="todo-table">
+    <thead>
+    <!-- BEGIN (write your solution here) -->
+      <tr>
+        <th>Lunes</th>
+        <th>Martes</th>
+        <th>Miércoles</th>
+        <th>Jueves</th>
+        <th>Viernes</th>
+        <th>Sábado</th>
+        <th>Domingo</th>
+      </tr>
+    <!-- END -->
+    </thead>
+    <tbody>
+      <!-- BEGIN (write your solution here) -->
+      <tr>
+        <td colspan="3" class="bg-blue">
+          <p class="todo-name">Piscina</p>
+          <p class="todo-time">9:30 - 10:30</p>
+        </td>
+        <td rowspan="2" class="bg-orange">
+          <p class="todo-name">Llevar a mamá</p>
+          <p class="todo-time">9:30 - 11:30</p>
+        </td>
+        <td class="bg-blue">
+          <p class="todo-name">Piscina</p>
+          <p class="todo-time">9:30 - 10:30</p>
+        </td>
+        <td rowspan="2" class="bg-green">
+          <p class="todo-name">Golf</p>
+          <p class="todo-time">9:30 - 12:30</p>
+        </td>
+        <td rowspan="3" class="bg-orange">
+          <p class="todo-name">Descanso</p>
+          <p class="todo-time">9:30 - 13:00</p>
+        </td>
+      </tr>
+      <tr>
+        <td class="bg-orange">
+          <p class="todo-name">Tienda</p>
+          <p class="todo-time">11:00 - 12:00</p>
+        </td>
+        <td rowspan="2" class="bg-blue">
+          <p class="todo-name">Visitar a Sasha</p>
+          <p class="todo-time">11:30 - 13:00</p>
+        </td>
+        <td rowspan="2" class="bg-green">
+          <p class="todo-name">Limpieza</p>
+          <p class="todo-time">11:30 - 13:00</p>
+        </td>
+        <td></td>
+      </tr>
+      <tr>
+        <td class="bg-green">
+          <p class="todo-name">Tienda</p>
+          <p class="todo-time">12:00 - 13:00</p>
+        </td>
+        <td></td>
+        <td class="bg-green">
+          <p class="todo-name">Llevar a Olga</p>
+          <p class="todo-time">11:30 - 13:00</p>
+        </td>
+        <td></td>
+      </tr>
+      <!-- END -->
+    </tbody>
+  </table>
+</body>
+</html>
